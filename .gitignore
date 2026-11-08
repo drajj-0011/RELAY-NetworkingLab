@@ -1,0 +1,47 @@
+# ─── Dependencies ───────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.*
+
+# ─── Next.js / build output ─────────────────────────────────────
+.next/
+out/
+build/
+next-env.d.ts
+
+# ─── Environment variables (contains your MongoDB URI) ──────────
+.env
+.env.*
+!.env.example
+
+# ─── MongoDB local data (from scripts/start-mongo.mjs) ──────────
+.mongo-data/
+mongod.log
+
+# ─── Logs ───────────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ─── Testing / coverage ─────────────────────────────────────────
+coverage/
+*.tsbuildinfo
+
+# ─── Editors & OS ───────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# ─── Deploy / misc ──────────────────────────────────────────────
+.vercel
+.cache
+temp/
+tmp/

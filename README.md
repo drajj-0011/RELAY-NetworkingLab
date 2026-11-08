@@ -53,22 +53,6 @@ run** — nothing is hard-coded or estimated.
 
 ---
 
-## 📸 Screenshots
-
-> Add your images to `docs/screenshots/` and they will appear here.
-> `Ctrl+Shift+S` (Win) or `Cmd+Shift+4` (Mac) to capture.
-
-| | |
-|:---:|:---:|
-| *Live laboratory — simulation running* | *Link disabled, traffic rerouting* |
-| `docs/screenshots/01-lab.png` | `docs/screenshots/02-link-failure.png` |
-| *Telemetry and packet ledger* | *TCP vs UDP comparison* |
-| `docs/screenshots/03-telemetry.png` | `docs/screenshots/04-tcp-vs-udp.png` |
-| *Saved experiments from MongoDB* | *MongoDB Compass document* |
-| `docs/screenshots/05-mongodb.png` | `docs/screenshots/06-compass.png` |
-
----
-
 ## 🏗️ Architecture
 
 ```mermaid
